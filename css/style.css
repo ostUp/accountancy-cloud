@@ -1,11 +1,356 @@
-*{
+* {
 	box-sizing: border-box;
-}
-body{
+	margin: 0;
+	padding: 0;
 	font-family: 'Roboto', sans-serif;
 }
-.container{
+
+.d-flex {
+	display: flex;
+}
+
+.container {
 	max-width: 1170px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
+
+.btn {
+	padding: 12px 25px;
+	background: #000;
+	color: #fff;
+	font-weight: 700;
+	line-height: 25px;
+	font-size: 18px;
+	border-radius: 100px;
+}
+
+/* header */
+
+.header {
+	margin: 45px 0;
+	height: 52px;
+}
+
+.header-wrap {
+	grid-column-gap: 140px;
+}
+
+.nav {
+	grid-column-gap: 18px;
+}
+
+.nav-list {
+	grid-column-gap: 22px;
+	align-items: center;
+}
+
+.nav-list-item {
+	font-size: 16px;
+	line-height: 16.2px;
+	color: #000;
+}
+
+.nav-list-item:hover {
+	text-decoration: underline;
+}
+
+.nav-buttons {
+	grid-column-gap: 18px;
+}
+
+.login {
+	border: 1px solid #000;
+	background: #fff;
+	color: #000;
+}
+
+/* hero */
+
+.hero-wrap {
+	justify-content: space-between;
+}
+
+.hero-heading {
+	margin: 0;
+	padding: 44px 0 27px;
+	font-weight: 700;
+	font-size: 77px;
+	line-height: 82px;
+}
+
+.hero-text {
+	font-size: 20px;
+	line-height: 31px;
+	color: #000;
+}
+
+.hero-description {
+	margin-top: 79px;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 24px;
+	color: #000;
+	margin-bottom: 50px;
+}
+
+.hero-img {
+	width: 667px;
+}
+
+/* about */
+
+.about-wrap {
+	margin-top: 75px;
+	justify-content: space-between;
+}
+
+.about-img {
+	padding: 83px 100px 143px 0;
+}
+
+.about-heading {
+	padding: 51px 0 36px 0;
+	font-weight: bold;
+	font-size: 57px;
+	line-height: 58px;
+	color: #000;
+}
+
+.about-text {
+	margin-bottom: 121px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 31px;
+}
+
+/* benefits */
+
+.benefits {
+	margin-bottom: 120px;
+}
+
+.benefits-heading {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 58px;
+	line-height: 58px;
+	padding: 33px 0 19px 0;
+}
+
+.benefits-wrap {
+	justify-content: space-between;
+	/* padding: 0 120px 0 0; */
+}
+
+.benefits-item {
+	width: 308px;
+}
+
+.benefits-item-heading {
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 36px;
+}
+
+.benefits-item-img {
+	padding-top: 63px;
+}
+
+.benefits-item-text {
+	padding-top: 67px;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+	padding: 24px 0 70px 0;
+}
+
+.benefits-btn {
+	background-color: #F7B2B7;
+	color: #000;
+}
+
+/* plans */
+
+.plans {
+	background: #FDECED;
+}
+
+.plans-heading {
+	font-weight: normal;
+	font-size: 58px;
+	line-height: 58px;
+	padding: 88px 0 19px;
+}
+
+.plans-wrap {
+	justify-content: space-between;
+	/* padding: 0 120px 0 0; */
+	padding: 0 0 72px 0;
+}
+
+.plans-item {
+	width: 308px;
+}
+
+.plans-item-heading {
+	font-weight: bold;
+	font-size: 28px;
+	line-height: 36px;
+}
+
+.plans-item-text {
+	padding-top: 67px;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+/* partners */
+
+.parthers-heading {
+	font-weight: normal;
+	font-size: 27px;
+	line-height: 36px;
+	width: 236px;
+	padding: 92px 0 285px 0;
+}
+
+.partners-wrap {
+	justify-content: space-between;
+}
+
+.partners-row {
+	/* padding-top: 36px; */
+	flex-direction: row;
+	grid-column-gap: 36px;
+}
+
+.patrners-img-wrap {
+	padding: 72px 99px 18px 0;
+	flex-direction: column;
+	grid-gap: 36px;
+}
+
+/* hub */
+
+.hub-heading {
+	font-weight: bold;
+	font-size: 58px;
+	line-height: 58px;
+	padding: 190px 0 40px 0;
+}
+
+.hub-text {
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 31px;
+	padding-bottom: 95px;
+}
+
+.hub-btn {
+	color: #000;
+	background: #F7B2B7;
+}
+
+.hub-img {
+	padding: 107px 0 78px 120px;
+}
+
+/* lets-go */
+
+.lets-go {
+	padding: 108px;
+}
+
+.lets-go-wrap {
+	padding: 108px 90px;
+	background: #8BD4D6;
+	border-radius: 10px;
+	justify-content: space-between;
+}
+
+.lets-go-content {
+	width: 810px;
+	align-items: center;
+}
+
+.lets-go-heading {
+	font-weight: bold;
+	font-size: 46px;
+	line-height: 56px;
+	padding-bottom: 18px;
+}
+
+.lets-go-text {
+	font-weight: normal;
+	font-size: 20px;
+	line-height: 31px;
+}
+
+.lets-go-btns {
+	padding-top: 42px;
+}
+
+/* footer  */
+
+.footer {
+	background-color: #302E3F;
+	color: #fff;
+}
+
+a {
+	color: #C5E9EA;
+}
+
+.footer-top-text {
+	font-size: 28px;
+	line-height: 36px;
+	padding-left: 18px;
+	justify-content: center;
+}
+
+.footer-logo-link{
+	padding: 45px 0;
+}
+
+.footer-main-item-heading, .footer-hero-item-heading {
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 25px;
+}
+
+.footer-link-item {
+	font-size: 16px;
+	line-height: 16px;
+}
+.footer-main-item-heading,.footer-hero-item-heading{
+	padding-bottom: 12px;
+}
+.footer-main-item{
+	width: 204px;
+}
+.footer-link-item,.footer-link-item{
+	padding-bottom: 8px;
+}
+.footer-link-item:hover{
+	color: blue;
+}
+.footer-hero{
+	padding-top: 36px;
+}
+.footer-main{
+	justify-content: space-between;
+}
+.footer-buttom-list{
+	grid-gap: 27px;
+}
+.footer-bottom-wrap{
+	justify-content: space-between;
+	align-items: center;
+	padding-bottom: 45px;
+}
+/* 1. Якщо закоментувати margin: 0; в .hero-heading то шо це будуть за відступи?
+2. Як виправити проблему з кнопками коли додаєш відступ то падінги які є не враховуються і треба просто додавати той падінг в інший відступ
+3. Тут шось не то з відступамит і як зробити відступ шоб не обгортувати в дів? (.lets-go-btns{padding-top: 45px;} ) */
