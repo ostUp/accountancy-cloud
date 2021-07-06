@@ -25,6 +25,14 @@
 	border-radius: 100px;
 }
 
+.a-col {
+	color: #335C81;
+}
+
+.a-col:hover {
+	text-decoration: underline;
+}
+
 /* header */
 
 .header {
@@ -195,13 +203,14 @@
 }
 
 .plans-item-heading {
+	padding: 24px 0 10px 0;
+	padding-top: 30px;
 	font-weight: bold;
 	font-size: 28px;
 	line-height: 36px;
 }
 
 .plans-item-text {
-	padding-top: 67px;
 	font-weight: normal;
 	font-size: 18px;
 	line-height: 24px;
@@ -311,7 +320,7 @@ a {
 	justify-content: center;
 }
 
-.footer-logo-link{
+.footer-logo-link {
 	padding: 45px 0;
 }
 
@@ -325,32 +334,49 @@ a {
 	font-size: 16px;
 	line-height: 16px;
 }
-.footer-main-item-heading,.footer-hero-item-heading{
+
+.footer-main-item-heading, .footer-hero-item-heading {
 	padding-bottom: 12px;
 }
-.footer-main-item{
+
+.footer-main-item {
 	width: 204px;
 }
-.footer-link-item,.footer-link-item{
+
+.footer-link-item, .footer-link-item {
 	padding-bottom: 8px;
 }
-.footer-link-item:hover{
-	color: blue;
+
+.footer-list-link:hover {
+	color: #335C81;
 }
-.footer-hero{
+
+.footer-hero {
 	padding-top: 36px;
 }
-.footer-main{
+
+.footer-main {
 	justify-content: space-between;
 }
-.footer-buttom-list{
+
+.footer-buttom-list {
 	grid-gap: 27px;
 }
-.footer-bottom-wrap{
+
+.footer-bottom-wrap {
 	justify-content: space-between;
 	align-items: center;
 	padding-bottom: 45px;
 }
-/* 1. Якщо закоментувати margin: 0; в .hero-heading то шо це будуть за відступи?
-2. Як виправити проблему з кнопками коли додаєш відступ то падінги які є не враховуються і треба просто додавати той падінг в інший відступ
-3. Тут шось не то з відступамит і як зробити відступ шоб не обгортувати в дів? (.lets-go-btns{padding-top: 45px;} ) */
+
+/* Responsive starts here */
+
+@media screen and (max-width: 1200px) {}
+
+@media screen and (max-width: 1199px) {}
+
+@media screen and (max-width: 991px) {}
+
+@media screen and (max-width: 767px) {}
+
+@media screen and (max-width: 575px) {}
