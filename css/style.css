@@ -269,7 +269,7 @@
 /* lets-go */
 
 .lets-go {
-	/* padding: 108px; */
+	padding-bottom: 108px;
 }
 
 .lets-go-wrap {
@@ -622,13 +622,14 @@ a {
 	.nav-list {
 		flex-direction: column;
 		grid-gap: 10px;
+		margin-bottom: 10px;
 	}
 	.hero-wrap {
 		padding-top: 100px;
 	}
 	.hero-heading {
 		font-size: 33px;
-		padding: 15px 0 0 0;
+		padding: 45px 0 0 0;
 	}
 	.hero-img{
 		padding: 0;
@@ -667,6 +668,7 @@ a {
 	.hub-img {
 		height: 350px;
 		padding-top: 100px;
+		margin-bottom: 35px;
 	}
 	.lets-go-wrap {
 		padding: 60px 20px;
@@ -682,5 +684,8 @@ a {
   }
   .lets-go-wrap{
 	  margin-bottom: 20px;
+  }
+  .lets-go{
+	  padding-bottom: 25px;
   }
 }
